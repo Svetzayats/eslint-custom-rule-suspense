@@ -1,0 +1,17 @@
+{
+  "name": "eslint-plugin-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/suspense-rule.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "eslint": "^8.56.0"
+  }
+}
