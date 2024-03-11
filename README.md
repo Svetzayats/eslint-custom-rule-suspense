@@ -11,6 +11,13 @@ This rule checks for two main conditions:
 
 Note: rule works only in one file. So if you use lazy import in one file and pass loaded component through props and use in another file - rule will not throw error. 
 
+### How to ignore
+You can ignore this rule with default syntax: 
+```jsx
+{ /* eslint-disable */ }
+<LazyLoadedComponentWithoutSuspense />
+```
+
 ## Examples
 
 ### Incorrect Usage
